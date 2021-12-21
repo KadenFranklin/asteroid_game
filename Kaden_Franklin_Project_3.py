@@ -147,7 +147,7 @@ def play_level(level : int):
                 update(120)
     if character_alive_bool == False and win_bool == False:
         level_lose()
-        level_win.close()d
+        level_win.close()
 
 def level_winner(level : int):
     win_screen_win = GraphWin("YOU WIN", 400, 400, autoflush = False)
